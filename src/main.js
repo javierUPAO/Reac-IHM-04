@@ -1,7 +1,5 @@
-const Main =({subtitulo,texto}) => {
-    return <body>
-        <h1>{subtitulo}</h1>
-     <p >{texto}</p>
-     </body>
+function Main ({subtitulo}){
+return <h1>{subtitulo}</h1>
+
 }
 export default Main;

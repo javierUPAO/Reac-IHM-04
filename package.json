@@ -2,7 +2,11 @@
   "dependencies": {
     "@types/react": "^18.2.79",
     "@types/react-dom": "^18.2.25",
+    "bootstrap": "^5.3.3",
+    "feather-icons": "^4.29.1",
+    "i": "^0.3.7",
     "react": "^18.2.0",
+    "react-bootstrap": "^2.10.2",
     "react-dom": "^18.2.0",
     "react-scripts": "^5.0.1"
   },
