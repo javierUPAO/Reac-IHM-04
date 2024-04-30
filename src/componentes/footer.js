@@ -12,13 +12,13 @@ const Footer =() => {
   </div>
   <div class="row">
     <div class="col">
-    <i data-feather = "facebook"> </i> Facebook 
+    <i data-feather = "facebook"> </i>  <a href="https://www.facebook.com/" target="_blank" className="text-decoration-none  text-black">Facebook</a> 
     </div>
     <div class="col">
-    <i data-feather = "instagram">  </i> Instagram
-    </div>
+    <i data-feather = "instagram">  </i>  <a href="https://www.instagram.com/" target="_blank" className="text-decoration-none  text-black" >Instagram</a> 
+    </div> 
     <div class="col">
-    <i data-feather = "twitter">  </i>  Twitter
+    <i data-feather = "twitter">  </i>  <a href="https://twitter.com/?lang=es" target="_blank" className="text-decoration-none text-black">Twitter</a> 
     </div>
   </div>
 </div>

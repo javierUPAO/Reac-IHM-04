@@ -17,20 +17,28 @@ function NavScrollExample() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="#action1"> <i data-feather = "home"></i> Inicio</Nav.Link>
-            <Nav.Link href="#action2"> <i data-feather = "dollar-sign"> </i> Donar</Nav.Link>
-            <NavDropdown title="Mascotas" id="navbarScrollingDropdown" >
-              <NavDropdown.Item href="#action3"> <i data-feather = "smile"> </i>Perritos </NavDropdown.Item>
-              <NavDropdown.Item href="#action4">  <i data-feather = "github"> </i>
-                Gatitos
-              </NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action5">
-                Proximamente ....
-              </NavDropdown.Item>
+            <Nav.Link href="/home"> <i data-feather = "home"></i> Inicio</Nav.Link>
+            <NavDropdown title="Productos" id="navbarScrollingDropdown" >
+
+              <NavDropdown.Item href="#action4"> Melamine </NavDropdown.Item>
+              <NavDropdown.Item href="#action5"> Madera </NavDropdown.Item>
+
+
+
+
+            </NavDropdown>
+            <NavDropdown title="Melamine" id="navbarScrollingDropdown" >
+              <NavDropdown.Item href="#action3"> Reposteros</NavDropdown.Item>
+              <NavDropdown.Item href="#action4"> Escritorios </NavDropdown.Item>
+            </NavDropdown>
+            <NavDropdown title="Madera" id="navbarScrollingDropdown" >
+              <NavDropdown.Item href="#action3">  Puertas </NavDropdown.Item>
+              <NavDropdown.Item href="#action3">  Marcos </NavDropdown.Item>
+              <NavDropdown.Item href="#action4">  Portones </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="#action5"><i data-feather = "map-pin"> </i> Ubicanos </Nav.Link>
             <Nav.Link href="#action6"> <i data-feather = "phone-call"> </i> Contactanos</Nav.Link>
+            <Nav.Link href="/faq"> <i data-feather = "help-circle"> </i> FAQ</Nav.Link>
           </Nav>
           <Form className="d-flex">
             <Form.Control
