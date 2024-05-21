@@ -1,23 +1,28 @@
 
    [
      { "slug": "puerta",
-        "url": "https://promart.vteximg.com.br/arquivos/ids/7452635-1000-1000/152579.jpg?v=638284958010330000"
+        "url": "https://promart.vteximg.com.br/arquivos/ids/7452635-1000-1000/152579.jpg?v=638284958010330000",
+        "des" : "Puerta de tornillo con color cedro"
       },
       {
         "slug": "escritorio",
-        "url": "https://crisostomo.vtexassets.com/arquivos/ids/155753/escritorio-para-computadora.jpg?v=637851573108900000"
+        "url": "https://crisostomo.vtexassets.com/arquivos/ids/155753/escritorio-para-computadora.jpg?v=637851573108900000",
+        "des" : "Escritorio de 3 cajones y un espacio para la cpu"
       },
       {
         "slug": "repostero",
-        "url": "https://scontent.flim2-2.fna.fbcdn.net/v/t1.6435-9/157573178_254191839627408_5214114608636770112_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=-VFonJU8S3oQ7kNvgHu5Pfm&_nc_ht=scontent.flim2-2.fna&oh=00_AfBMyjRJuHWYzaNfzpfIoukVCB8PTwovuYU1oFW-cMoeHQ&oe=66587A6F"
+        "url": "https://scontent.flim2-2.fna.fbcdn.net/v/t1.6435-9/157573178_254191839627408_5214114608636770112_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=-VFonJU8S3oQ7kNvgHu5Pfm&_nc_ht=scontent.flim2-2.fna&oh=00_AfBMyjRJuHWYzaNfzpfIoukVCB8PTwovuYU1oFW-cMoeHQ&oe=66587A6F",
+        "des" : "Repostero de 10 puertas 2 cajones"
       },
       {
-        "slug": "puerton",
-        "url": "https://promart.vteximg.com.br/arquivos/ids/6675613-1000-1000/137931.jpg?v=638084726143170000"
+        "slug": "brown-door",
+        "url": "https://promart.vteximg.com.br/arquivos/ids/6675613-1000-1000/137931.jpg?v=638084726143170000",
+        "des" : "Puerta de tornillo con color caoba"
       },
       {
-        "slug": "puertita",
-        "url": "https://thermiabarcelona.com/wp-content/uploads/2022/06/Puerta-entrada-Thermia-5.jpg"
+        "slug": "black-door",
+        "url": "https://thermiabarcelona.com/wp-content/uploads/2022/06/Puerta-entrada-Thermia-5.jpg",
+        "des" : "Puerta de tornillo con color cedro oscuro"
       }
  
 

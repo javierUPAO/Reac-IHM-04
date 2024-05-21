@@ -4,10 +4,10 @@ import Form from 'react-bootstrap/Form';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
-
+import '../styles.css';
 function NavScrollExample() {
   return (
-    <Navbar expand="lg" className="bg-body-tertiary">
+    <Navbar expand="lg" className='primary'>
       <Container fluid>
         <Navbar.Brand href="#"></Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
@@ -17,28 +17,19 @@ function NavScrollExample() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >
-            <Nav.Link href="/home"> <i data-feather = "home"></i> Inicio</Nav.Link>
-            <NavDropdown title="Productos" id="navbarScrollingDropdown" >
-
-              <NavDropdown.Item href="#action4"> Melamine </NavDropdown.Item>
-              <NavDropdown.Item href="#action5"> Madera </NavDropdown.Item>
-
-
-
-
+            <Nav.Link className= "nav-text" href="/home"> <i data-feather = "home"></i> Inicio</Nav.Link>
+            <NavDropdown className= "nav-text" title="Melamine" id="navbarScrollingDropdown" >
+              <NavDropdown.Item className= "nav-text" href="#action3"> Reposteros</NavDropdown.Item>
+              <NavDropdown.Item className= "nav-text" href="#action4"> Escritorios </NavDropdown.Item>
             </NavDropdown>
-            <NavDropdown title="Melamine" id="navbarScrollingDropdown" >
-              <NavDropdown.Item href="#action3"> Reposteros</NavDropdown.Item>
-              <NavDropdown.Item href="#action4"> Escritorios </NavDropdown.Item>
+            <NavDropdown className= "nav-text" title="Madera" id="navbarScrollingDropdown" >
+              <NavDropdown.Item className= "nav-text" href="#action3">  Puertas </NavDropdown.Item>
+              <NavDropdown.Item className= "nav-text" href="#action3">  Marcos </NavDropdown.Item>
+              <NavDropdown.Item className= "nav-text" href="#action4">  Portones </NavDropdown.Item>
             </NavDropdown>
-            <NavDropdown title="Madera" id="navbarScrollingDropdown" >
-              <NavDropdown.Item href="#action3">  Puertas </NavDropdown.Item>
-              <NavDropdown.Item href="#action3">  Marcos </NavDropdown.Item>
-              <NavDropdown.Item href="#action4">  Portones </NavDropdown.Item>
-            </NavDropdown>
-            <Nav.Link href="#action5"><i data-feather = "map-pin"> </i> Ubicanos </Nav.Link>
-            <Nav.Link href="#action6"> <i data-feather = "phone-call"> </i> Contactanos</Nav.Link>
-            <Nav.Link href="/faq"> <i data-feather = "help-circle"> </i> FAQ</Nav.Link>
+            <Nav.Link className= "nav-text" href="#action5"><i data-feather = "map-pin"> </i> Ubicanos </Nav.Link>
+            <Nav.Link className= "nav-text" href="#action6"> <i data-feather = "phone-call"> </i> Contactanos</Nav.Link>
+            <Nav.Link className= "nav-text" href="/faq"> <i data-feather = "help-circle"> </i> FAQ</Nav.Link>
           </Nav>
           <Form className="d-flex">
             <Form.Control
@@ -47,7 +38,7 @@ function NavScrollExample() {
               className="me-2"
               aria-label="Search"
             />
-            <Button variant="outline-success">Search</Button>
+            <Button className="btn-primary" variant="success">Buscar</Button>
           </Form>
         </Navbar.Collapse>
       </Container>

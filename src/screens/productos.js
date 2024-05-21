@@ -7,7 +7,7 @@ const Prod = () =>
         <div className="row">
             <div className="col-md-6">
 
-                    <p>{productos.slug}</p>
+                    <p>{productos.des}</p>
                     <img src={productos.url}></img>
             </div>
             <div className="col-md-6">

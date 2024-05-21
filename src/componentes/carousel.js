@@ -19,7 +19,9 @@ const Carousel2 = () => {
             return (
                   <Carousel.Item onClick={(e) => {e.preventDefault(); handleClick(it.slug) }}>
                   <img className='bg-fill' src={it.url}/>
+                  <p> {it.des}</p>
                   </Carousel.Item>     
+                  
             );
    
           })

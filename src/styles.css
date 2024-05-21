@@ -1,16 +1,35 @@
 
 .btn-primary{
-    background-color: red;
+    background-color: #457B9D!important;
 }
 
-
+.primary
+{
+    background-color:  #A8DADC ;
+}
+.nav-text
+{
+    color: #1D3557!important;
+}
+.terciary
+{
+    background-color: #1D3557;
+    color: #F1FAEE;
+}
+.terciary a
+{
+    color: #F1FAEE;
+}
 header
 {
- background-color: #6b1325;
- color: white;
+ background-color:#457B9D;
+ color: #F1FAEE;
 }
 
-.bg-fill
-{
-
+p
+{   text-align: center;
+    size: 50PX;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #1D3557;
+    padding: 10px;
 }
