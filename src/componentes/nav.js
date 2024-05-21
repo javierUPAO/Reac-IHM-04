@@ -19,13 +19,13 @@ function NavScrollExample() {
           >
             <Nav.Link className= "nav-text" href="/home"> <i data-feather = "home"></i> Inicio</Nav.Link>
             <NavDropdown className= "nav-text" title="Melamine" id="navbarScrollingDropdown" >
-              <NavDropdown.Item className= "nav-text" href="#action3"> Reposteros</NavDropdown.Item>
-              <NavDropdown.Item className= "nav-text" href="#action4"> Escritorios </NavDropdown.Item>
+              <NavDropdown.Item  href="#action3"> Reposteros</NavDropdown.Item>
+              <NavDropdown.Item href="#action4"> Escritorios </NavDropdown.Item>
             </NavDropdown>
             <NavDropdown className= "nav-text" title="Madera" id="navbarScrollingDropdown" >
-              <NavDropdown.Item className= "nav-text" href="#action3">  Puertas </NavDropdown.Item>
-              <NavDropdown.Item className= "nav-text" href="#action3">  Marcos </NavDropdown.Item>
-              <NavDropdown.Item className= "nav-text" href="#action4">  Portones </NavDropdown.Item>
+              <NavDropdown.Item  href="#action3">  Puertas </NavDropdown.Item>
+              <NavDropdown.Item href="#action3">  Marcos </NavDropdown.Item>
+              <NavDropdown.Item href="#action4">  Portones </NavDropdown.Item>
             </NavDropdown>
             <Nav.Link className= "nav-text" href="#action5"><i data-feather = "map-pin"> </i> Ubicanos </Nav.Link>
             <Nav.Link className= "nav-text" href="#action6"> <i data-feather = "phone-call"> </i> Contactanos</Nav.Link>

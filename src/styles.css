@@ -5,11 +5,15 @@
 
 .primary
 {
-    background-color:  #A8DADC ;
+    background-color:  #1D3557 ;
 }
 .nav-text
 {
-    color: #1D3557!important;
+    color: #F1FAEE!important;
+}
+#navbarScrollingDropdown
+{
+    color: #F1FAEE!important;
 }
 .terciary
 {
